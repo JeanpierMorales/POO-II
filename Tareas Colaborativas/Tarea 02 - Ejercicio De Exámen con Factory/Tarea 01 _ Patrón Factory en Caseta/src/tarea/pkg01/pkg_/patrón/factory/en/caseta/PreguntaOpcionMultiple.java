@@ -1,4 +1,4 @@
-package javaapplication37;
+package tarea.pkg01.pkg_.patrón.factory.en.caseta;
 
 import java.util.List; // Importamos List porque necesitamos manejar una lista de opciones
 
@@ -11,7 +11,7 @@ public class PreguntaOpcionMultiple extends Pregunta {
     private List<String> opciones;
 
     // Constructor: inicializamos atributos heredados y además las opciones
-    public PreguntaOpcionMultiple(String enunciado, String respuestaCorrecta, List<String> opciones) {
+    public PreguntaOpcionMultiple(String enunciado, String respuestaCorrecta, List<String> opciones) { // Añadimos el parametro de las opciones
         super(enunciado, respuestaCorrecta);
         this.opciones = opciones;
     }
@@ -31,8 +31,8 @@ public class PreguntaOpcionMultiple extends Pregunta {
     }
 
     @Override
-    public boolean evaluarRespuesta(String respuestaUsuario) {
+    public boolean evaluarRespuesta(String respuestaEstudiante) {
         // Comparamos la respuesta ignorando mayúsculas/minúsculas
-        return respuestaUsuario.equalsIgnoreCase(getRespuestaCorrecta());
+        return respuestaEstudiante.equalsIgnoreCase(getRespuestaCorrecta());
     }
 }

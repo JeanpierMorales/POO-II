@@ -1,7 +1,7 @@
-package javaapplication37;
+package tarea.pkg01.pkg_.patrón.factory.en.caseta;
 
 // Clase hija para preguntas de Verdadero/Falso
-// Aquí nosotros simplificamos el proceso mostrando (V/F) como ayuda al usuario.
+// Aquí nosotros simplificamos el proceso mostrando (V/F) como ayuda al Estudiante.
 public class PreguntaVoF extends Pregunta {
 
     // Constructor: inicializamos con el constructor padre
@@ -18,8 +18,8 @@ public class PreguntaVoF extends Pregunta {
     }
 
     @Override
-    public boolean evaluarRespuesta(String respuestaUsuario) {
-        // Comparamos ignorando mayúsculas/minúsculas
-        return respuestaUsuario.equalsIgnoreCase(getRespuestaCorrecta());
+    public boolean evaluarRespuesta(String respuestaEstudiante) {
+        // Comparamos ignorando mayúsculas o minúsculas
+        return respuestaEstudiante.equalsIgnoreCase(getRespuestaCorrecta());
     }
 }

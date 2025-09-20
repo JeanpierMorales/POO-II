@@ -1,0 +1,60 @@
+OM|Cual de los siguientes es un pilar de la POO?|1|Abstracción,Encapsulación,SQL,JSON
+OM|Qué palabra clave en Java se usa para heredar una clase?|2|this,extends,implements,super
+OM|Cuál es el objetivo principal del encapsulamiento?|3|Hacer herencia,Ocultar la lógica interna,Probar métodos,Heredar métodos privados
+OM|En POO, ¿qué significa polimorfismo?|1|Un objeto puede tener múltiples formas,Una clase puede heredar solo de una,Se pueden crear varias instancias,Los métodos no pueden sobrecargarse
+OM|Qué palabra clave en Java se usa para crear un objeto?|2|extends,new,create,static
+OM|Qué método en Java se usa como punto de entrada de un programa?|1|main(),start(),execute(),begin()
+OM|Qué modificador permite que un atributo sea accesible solo dentro de la misma clase?|2|public,private,protected,default
+OM|Cuál de los siguientes es un ejemplo de herencia?|3|Una clase tiene atributos privados,Una clase implementa una interfaz,Una clase `Estudiante` hereda de `Persona`,Un método es sobrecargado
+OM|Qué principio de POO permite reutilizar código a través de clases padres?|2|Polimorfismo,Herencia,Abstracción,Encapsulamiento
+OM|Qué palabra clave en Java se usa para referirse a la clase padre?|4|class,parent,this,super
+OM|Cuál es la diferencia entre una clase abstracta y una interfaz en Java?|1|Una clase abstracta puede tener código implementado,Una interfaz no puede extenderse,Ambas permiten herencia múltiple,Una interfaz siempre tiene constructores
+OM|Qué tipo de polimorfismo permite redefinir métodos en una subclase?|3|Sobrecarga,Sobreescritura,Polimorfismo dinámico,Herencia múltiple
+OM|Qué es un constructor en Java?|4|Un método que inicializa objetos,Un atributo privado,Un bucle especial,Un método que tiene el mismo nombre que la clase
+OM|Cuál es el resultado de intentar instanciar una clase abstracta?|1|Error de compilación,Se crea el objeto vacío,Se lanza excepción,Se ejecuta normalmente
+OM|Qué palabra clave en Java define una clase que no puede heredarse?|3|abstract,extends,final,static
+OM|Qué principio busca que cada clase tenga una única responsabilidad?|2|Liskov,SRP,Polimorfismo,KISS
+OM|Qué significa sobrecarga de métodos en Java?|1|Definir varios métodos con el mismo nombre pero diferente firma,Reescribir un método en la subclase,Crear múltiples objetos,Herencia múltiple
+OM|Qué permite la palabra clave `implements` en Java?|3|Herencia múltiple de clases,Definir un método,Implementar una interfaz,Crear un objeto
+OM|Cuál es la relación correcta en POO?|2|Un perro *es un* animal,Un coche *tiene un* motor,Una clase *tiene un* método privado,Una interfaz *es un* objeto
+OM|Qué es una interfaz funcional en Java?|4|Una interfaz con un solo método abstracto,Una clase final,Una clase que hereda de otra,Una interfaz usada en programación funcional
+VF|En POO, una clase define el comportamiento y estado de un objeto.|V
+VF|Los atributos de una clase representan su comportamiento.|F
+VF|El encapsulamiento ayuda a proteger los datos internos de una clase.|V
+VF|En Java, se pueden crear instancias de una clase abstracta directamente.|F
+VF|El polimorfismo permite que un mismo método tenga diferentes implementaciones.|V
+VF|La palabra clave `super` se usa para acceder a los miembros de la subclase.|F
+VF|En POO, una interfaz puede tener métodos abstractos y estáticos.|V
+VF|El principio de responsabilidad única indica que una clase debe tener múltiples responsabilidades.|F
+VF|En Java, el constructor tiene el mismo nombre que la clase.|V
+VF|Una clase final en Java no puede ser heredada.|V
+VF|El método `main` puede ser sobrecargado en una clase en Java.|V
+VF|La sobrecarga de métodos se basa en tener diferentes nombres de métodos.|F
+VF|La sobreescritura de métodos ocurre cuando una subclase redefine un método de la superclase.|V
+VF|Una clase puede heredar de múltiples clases en Java.|F
+VF|El polimorfismo estático se da con la sobrecarga de métodos.|V
+VF|Una interfaz en Java puede heredar de otra interfaz.|V
+VF|El patrón de diseño Factory pertenece a la categoría Creacional.|V
+VF|El método `toString()` en Java sirve para representar un objeto como texto.|V
+VF|La palabra clave `this` hace referencia a la superclase.|F
+VF|El principio de abstracción consiste en mostrar solo los detalles esenciales de un objeto.|V
+CO|Completa: En POO, los objetos son instancias de _____.|Clases
+CO|Completa: El mecanismo de ocultar los detalles internos de una clase se llama _____.|Encapsulación
+CO|Completa: El pilar de POO que permite heredar atributos y métodos es _____.|Herencia
+CO|Completa: El polimorfismo se divide en dos tipos: estático y _____.|Dinámico
+CO|Completa: En Java, la palabra clave para crear un objeto es _____.|new
+CO|Completa: Una clase que no puede instanciarse directamente es una clase _____.|Abstracta
+CO|Completa: La palabra clave usada para impedir la herencia es _____.|final
+CO|Completa: Una interfaz en Java no tiene _____.|Constructores
+CO|Completa: El método que sirve como punto de entrada en Java es _____.|main
+CO|Completa: La palabra clave que permite heredar una clase en Java es _____.|extends
+CO|Completa: En Java, las variables de instancia de una clase se llaman _____.|Atributos
+CO|Completa: La relación "un coche tiene un motor" es un ejemplo de _____.|Composición
+CO|Completa: La palabra clave que se usa para acceder a los atributos de la propia clase es _____.|this
+CO|Completa: Una interfaz funcional tiene exactamente un método _____.|Abstracto
+CO|Completa: En POO, la idea de "mostrar solo lo esencial" se llama _____.|Abstracción
+CO|Completa: En Java, un método con el mismo nombre pero distinta firma está _____.|Sobrecargado
+CO|Completa: La capacidad de redefinir un método heredado se llama _____.|Sobreescritura
+CO|Completa: La combinación de datos y métodos dentro de una clase se conoce como _____.|Encapsulación
+CO|Completa: El patrón que centraliza la creación de objetos es _____.|Factory
+CO|Completa: En POO, la reutilización de código mediante herencia se llama _____.|Reusabilidad

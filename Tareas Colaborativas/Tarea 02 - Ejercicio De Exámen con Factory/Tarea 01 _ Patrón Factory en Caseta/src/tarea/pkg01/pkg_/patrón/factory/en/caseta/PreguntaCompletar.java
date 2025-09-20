@@ -1,7 +1,7 @@
-package javaapplication37;
+package tarea.pkg01.pkg_.patrón.factory.en.caseta;
 
 // Clase hija para preguntas de completar
-// Nosotros decidimos que esta clase sea sencilla: solo mostramos el enunciado
+// Nosotros decidimos que esta clase sea sencilla para solo mostrar el enunciado
 // y pedimos que el usuario escriba la respuesta.
 public class PreguntaCompletar extends Pregunta {
 
@@ -19,8 +19,8 @@ public class PreguntaCompletar extends Pregunta {
     }
 
     @Override
-    public boolean evaluarRespuesta(String respuestaUsuario) {
+    public boolean evaluarRespuesta(String respuestaEstudiante) {
         // Comparamos ignorando mayúsculas/minúsculas
-        return respuestaUsuario.equalsIgnoreCase(getRespuestaCorrecta());
+        return respuestaEstudiante.equalsIgnoreCase(getRespuestaCorrecta());
     }
 }

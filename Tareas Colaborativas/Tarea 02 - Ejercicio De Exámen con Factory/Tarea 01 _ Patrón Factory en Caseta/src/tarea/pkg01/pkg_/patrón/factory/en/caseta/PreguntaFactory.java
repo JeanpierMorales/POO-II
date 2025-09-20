@@ -1,4 +1,4 @@
-package javaapplication37;
+package tarea.pkg01.pkg_.patrón.factory.en.caseta;
 
 import java.util.Arrays; // Importamos Arrays para usar split en las opciones
 import java.util.List;   // Importamos List para manejar las opciones en OM
@@ -8,7 +8,7 @@ import java.util.List;   // Importamos List para manejar las opciones en OM
 // la lógica de creación de objetos según el tipo de pregunta.
 public class PreguntaFactory {
 
-    // Método estático: recibe una línea del archivo y devuelve una pregunta concreta
+    // Método estático va aser la que recibe una línea del archivo y devuelve una pregunta concreta
     public static Pregunta crearPregunta(String linea) {
         // Dividimos la línea con split por el separador "|"
         String[] partes = linea.split("\\|");
